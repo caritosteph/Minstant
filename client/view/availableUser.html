@@ -1,0 +1,21 @@
+<!-- display an individual user -->
+<template name="available_user">
+    <div class="col-md-6">
+        <div class="user_avatar">
+            {{#if isMyUser _id}}
+            <div class="badge user_form">{{getUsername _id}}(You)
+            </div>
+            <div>
+                <br/>
+                <img src="{{profile.avatar}}" class="avatar_img">
+            </div>
+            {{else}}
+            <a onclick="{{#if currentUser}} href='/chat/{{_id}}'{{else}} href='#' 
+            Materialize.toast('You must be Sing in to chat with someone!', 4000)  {{/if}}">
+				{{getUsername _id}}
+				<br/>
+				<img src="{{profile.avatar}}" class="avatar_img">
+			</a> {{/if}}
+        </div>
+    </div>
+</template>

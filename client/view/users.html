@@ -1,0 +1,14 @@
+<!-- display a list of users -->
+<template name="available_user_list">
+    <h2>Choose someone to chat with:</h2>
+    <br>
+    <div class="container">
+        <div class="row">
+            {{#each users}}
+            <div class="col s3 user_form">
+                {{> available_user}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</template>

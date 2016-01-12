@@ -1,0 +1,165 @@
+/* CSS declarations go here */
+
+.user_avatar{
+	min-height:100px;
+	text-align: center;
+
+}
+.avatar_img{
+	height:75px;
+}
+
+/* CSS declarations go here */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */
+    ;
+    background: #fcfcfc url(/bg.jpg) repeat;
+    margin: 0px;
+    /* Margin bottom by footer height */
+    margin-bottom: 70px;
+    padding: 0px;
+    color: #555555;
+    min-width: 320px;
+}
+
+@media only screen and (min-width: 993px) {
+    #content {
+        margin-left: 240px;
+    }
+}
+
+footer > .content {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+header,
+main,
+footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+.container {
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 99%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 98%;
+    }
+}
+
+.hidden_div {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%!important;
+    }
+}
+
+a.thumb_up {
+    color: #64dd17;
+}
+
+a.thumb_down {
+    color: #dd2c00;
+}
+
+a.thumb_up:hover {
+    color: #76ff03;
+}
+
+a.thumb_down:hover {
+    color: #ff3d00;
+}
+
+.user {
+    padding-top: 8px;
+}
+
+.user-name {
+    font-size: 14pt;
+}
+
+nav {
+    /*color: #130000!important;*/
+    background-color: #820D0D!important;
+}
+
+nav .input-field label i {
+    color: rgb(0, 0, 0)!important;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF!important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF!important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #C77474!important;
+}
+
+nav a {
+    color: #581463!important;
+}
+
+.btn, .btn-large {
+    background-color: #9A749A!important;
+}
+
+footer.page-footer {
+    background-color: #820D0D!important;
+}
+
+footer {
+    padding-left: 20px!important;
+}
+.user_form{
+    text-align: center;
+}
+.userYou{
+    background-color: red;
+}
+.badge {
+    background-color: #9A749A!important;
+}
+.avatar_img2 {
+    height: 35px;
+}
+
+a:hover{
+    text-decoration: none
+}
