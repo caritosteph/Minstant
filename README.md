@@ -5,7 +5,6 @@ This app was creating using [Meteor.js](https://www.meteor.com) and [Materialize
 ## Installation
 ```
 git clone https://github.com/caritosteph/Minstant.git
-meteor npm install
 meteor
 ```
 
